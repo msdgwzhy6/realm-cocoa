@@ -11,7 +11,10 @@ x.x.x Release notes (yyyy-MM-dd)
 
 ### Bugfixes
 
-* None.
+* Fix crashes and assorted issues when a migration which added object link
+  properties is rolled back due to an error in the migration block.
+* Fix an assertion failure in `Query::apply_patch` when updating certain kinds
+  of queries after a write transaction is committed.
 
 0.98.3 Release notes (2016-02-26)
 =============================================================
