@@ -1,0 +1,24 @@
+There's still a ton of stuff left to do, but this is now in a state where it's theoretically actually usable.
+
+ - [ ] Functionality
+   - [X] Change information for List
+   - [X] Change information for unsorted Results
+   - [X] Change information for sorted Results
+   - [ ] Change information for Results derived from List
+ - [ ] Testing
+   - [ ] Write tests covering everything that can reasonably be tested
+   - [ ] threadsanitizer
+   - [ ] Fuzz-test unsorted query changesets
+   - [xj Fuzz-test sorted query changesets
+   - [ ] Fuzz-test unsorted linkview changesets
+   - [ ] Fuzz-test sorted linkview changesets
+ - [ ] Performance
+   - [ ] Measure performance impact when changesets aren't used
+   - [ ] Measure performance of doing things with the changesets
+   - [ ] Make things fast enough
+ - [ ] Documentation
+   - [ ] Write API docs
+   - [ ] Update the guide
+   - [X] Update existing UITableView examples
+   - [ ] Add an NSOutlineView example
+
